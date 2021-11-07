@@ -1,0 +1,139 @@
+body{
+    margin: auto;
+    max-width: 65%;
+}
+
+.header{
+    width: 100%;
+    border: 1px solid;
+    margin-top: 5px;
+    background-color: #dddddd;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 30px;
+}
+
+.navigation{
+    margin-left: 20%;
+}
+
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 10%;
+}
+
+.navigation ul ul{
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+}
+
+.navigation ul ul li img{
+    margin-right: 10px;
+}
+
+.navigation ul ul li a{
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    padding:0px 10px 0px -5  px;
+}
+
+main{
+    width: 55%;
+    margin: 60px 0px 40px 10px;
+}
+
+.success{
+    margin-bottom: 25px;
+}
+
+.success img{
+    float: left;]
+    margin-top: -10px;
+}
+
+.success p{
+    font-size: 12px;
+    margin: auto;
+}
+
+.success b{
+    font-size: 25px;
+}
+
+.information p b{
+    font-size: 20px;
+}
+
+.information table{
+    width: -webkit-fill-available;
+    margin-top: -35px;
+}
+
+aside{
+    width: 35%;
+    margin-top: 60px;
+    align-items: center;
+    display: table;
+    padding: 0px 10px 0px 5px;
+}
+
+aside table{
+    width:100%;
+    background-color: #dddddd;
+    height: 50%; 
+    padding: 20px;
+    margin: auto;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+.discount{
+    width: 170px;
+}
+
+.discount b{
+    font-size:14px;
+}
+
+footer{
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 5px
+}
+
+.footer-logo{
+    text-decoration:none;
+    margin-right: 20px;
+}
+
+.footer-navigation{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.stay-in-touch{
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.payment input{
+    margin-left: 59%;
+}
