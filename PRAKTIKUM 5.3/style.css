@@ -1,0 +1,103 @@
+.container{
+    margin: 15px 20px;
+    position: static;
+}
+    
+.kuning{
+    background-color: #f4eb49;
+    color: #f4eb49;
+    float: left;
+    padding: 0px 60px;
+    border: 2px solid black;
+}
+
+.merah{
+    background-color: #ff6624;
+    color: #ff6624;
+    padding: 0px 460px;
+    float: right;
+    border: 2px solid black;
+}
+
+.hijau{
+    background-color: #aedd94;
+    color: #aedd94;
+    float: left;
+    padding: 130px 60px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.abu{
+    background-color: #d1d6db;
+    color: #d1d6db;
+    float: left;
+    padding: 130px 350px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.biru-muda{
+    background-color: #4dd7fa;
+    color: #4dd7fa;
+    float: right;
+    padding: 130px 60px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.biru{
+    background-color: #1464f6;
+    color: #1464f6;
+    position: absolute;
+    margin-top: 460px;
+    padding: 0px 571px;
+    border: 2px solid black;
+}
+
+
+/* .hijau{
+    background-color: #aedd94;
+    color: #aedd94;
+    padding: 10px 0;
+    border: 2px solid black;
+}
+
+.content1{
+    margin: 30px 0px;
+    position: static;
+}
+.kuning1{
+    background-color: #f4eb49;
+    color: #f4eb49;
+    float: left;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.merah{
+    background-color: #ff6624;
+    color: #ff6624;
+    padding: 50px 450px;
+    float: right;
+    border: 2px solid black;
+}
+
+.kuning2{
+    background-color: #f4eb49;
+    color: #f4eb49;
+    margin-top: 30px;
+    float: left;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.biru{
+    background-color: #4dd7fa;
+    color: #4dd7fa;
+    padding: 50px 450px;
+    margin-top: 30px;
+    float: right;
+    border: 2px solid black;
+} */
