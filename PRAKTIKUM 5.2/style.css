@@ -1,0 +1,49 @@
+.container{
+    margin: 15px 20px;
+    position: relative;
+}
+
+.hijau{
+    background-color: #aedd94;
+    color: #aedd94;
+    padding: 10px 0;
+    border: 2px solid black;
+}
+
+.content1{
+    margin: 30px 0px;
+    position: static;
+}
+.kuning1{
+    background-color: #f4eb49;
+    color: #f4eb49;
+    float: left;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.merah{
+    background-color: #ff6624;
+    color: #ff6624;
+    padding: 50px 450px;
+    float: right;
+    border: 2px solid black;
+}
+
+.kuning2{
+    background-color: #f4eb49;
+    color: #f4eb49;
+    margin-top: 30px;
+    float: left;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.biru{
+    background-color: #4dd7fa;
+    color: #4dd7fa;
+    padding: 50px 450px;
+    margin-top: 30px;
+    float: right;
+    border: 2px solid black;
+}
