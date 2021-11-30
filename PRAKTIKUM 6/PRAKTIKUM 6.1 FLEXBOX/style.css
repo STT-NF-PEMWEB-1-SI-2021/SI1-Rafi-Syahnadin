@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gambar-atas{
+    padding: 0 9% 0% 9%;
+}
+
+.gambar-bawah{
+    padding: 0 4% 0 4%;
+}
