@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Image Picker</title>
+</head>
+
+<body>
+  <table style="text-align: center; border: 1px solid black;">
+    <tr>
+      <td  for="gambar">Gambar</td>
+    </tr>
+    <tr>
+      <td>
+        
+        <select id="gambar">
+          <option value="rafi">Iqbaal Ramadhan</option>
+          <option value="sabil">Jarwo Kuat</option>
+          <option value="iyang">Yayan Ruhiyan</option>
+        </select>
+      </td>
+    </tr>
+
+  </table>
+  <button onclick="cetak()">Cetak</button>
+  <br>
+  <img id="fotonya" width="200px">
+
+  <script>
+
+    function cetak() {
+      const gambar = document.getElementById("gambar")
+      const fotonya = document.getElementById("fotonya")
+
+
+      if (gambar.value === 'rafi') {
+        window.alert("Ini gambar Iqbaal Ramadhan")
+        fotonya.src = "rafi.jpg"
+      } else if (gambar.value === 'sabil') {
+        window.alert("Ini gambar Jarwo Kuat")
+        fotonya.src = "sabil.jpg"
+      } else if (gambar.value === 'iyang') {
+        window.alert("Ini gambar Yayan Ruhiyan")
+        fotonya.src = "iyang.jpg"
+        }
+    }
+  </script>
+</body>
+
+</html>

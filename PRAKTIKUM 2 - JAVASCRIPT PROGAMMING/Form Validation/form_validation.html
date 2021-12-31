@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Form Validation</title>
+
+
+    <script>
+        function pesan(){
+            let nama = document.getElementById("nama").value;
+            let area_nama = document.getElementById("hasilNama");
+                area_nama.innerHTML = nama
+
+            let email = document.getElementById("email").value;
+            let area_email = document.getElementById("hasilEmail");
+                area_email.innerHTML = email
+
+            let tujuan = document.getElementById("tujuan").value;
+            let area_kota = document.getElementById("hasilTujuan");
+                area_kota.innerHTML = tujuan
+
+            let jam = document.getElementById("jam").value;
+            let area_waktu = document.getElementById("jamBerangkat");
+                area_waktu.innerHTML = jam
+
+            let tiket = document.getElementById("tiket").value;
+            let area_tiket = document.getElementById("jumlahTiket");
+                area_tiket.innerHTML = tiket
+        }
+    </script>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <br>
+
+        <h3>Form Validation</h3>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Nama Pelanggan</label>
+                <input id="nama" type="text" class="form-control" placeholder="Masukkan Nama Lengkap" required maxlength="30">
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Alamat Email</label>
+                <input id="email" type="email" class="form-control" placeholder="Masukkan Email Anda" required maxlength="30">
+                <small class="form-text text-muted">Email Akan Digunakan Untuk Mengirimkan Notifikasi.</small>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Tujuan Keberangkatan</label>
+                <input id="tujuan" type="text" class="form-control" placeholder="Masukkan Kota Tujuan">
+                <small class="form-text text-muted">Kota yang akan anda kunjungi.</small>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3">
+                <label>Jumlah Tiket</label>
+                <input id="tiket" type="number" name="number" class="form-control" placeholder="Masukkan Jumlah Tiket" required max="10" min="1">
+                <small class="form-text text-muted">Maksimum Jumlah Tiket 10 Lembar!</small>
+            </div>
+            <div class="col-md-2">
+                <label>Jam Berangkat</label>
+                <input id="jam" type="time" class="form-control">
+            </div>
+        </div>
+
+        <br>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="konfirm()">
+            Pesan
+        </button>
+
+    </div>
+
+<script>
+    function konfirm(){
+      var username = document.getElementById("nama").value;
+      var email = document.getElementById("email").value;
+      var tujuan = document.getElementById("tujuan").value;
+  
+    if (username == "" || email == ""|| tujuan == ""){
+      alert("Formulir masih kosong.");
+    }
+    else{
+      alert("Berhasil!");
+    }
+    }
+  </script>
+</body>
+</html>
