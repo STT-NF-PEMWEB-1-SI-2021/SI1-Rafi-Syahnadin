@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPAK 1 - NURULFIKRI</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style>
+        * {
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .nav-item{
+            margin-right: 2rem;
+        }
+
+        .btn-social{
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <img src="dist/img/LOGO.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" width="70">
+            <a class="navbar-brand" href="#" style="margin-left: 1em;"><b>SIPAK STT-NF</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="data(1).html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#berita">Berita</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Registrasi Kendaraan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="data(3).html">Registrasi Kegiatan</a>
+                      <a class="dropdown-item" href="sipak-4.html">Fasilitas Parkir</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data(2).html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Navbar End -->
+
+        <div class="container-fluid">
+            <div class="jumbotron" style="margin-top: 1em; padding: 5em 2em;">
+                <h2 class="font-weight-bold">
+                    Selamat Datang di Aplikasi Parkir STT-NF
+                </h2>
+                <p style="padding-top: 2em;">
+                    Aplikasi Parkir STT-NF merupakan aplikasi yang dimiliki oleh Kampus STT Terpadu Nurul Fikri yang dapat memudahkan Anda mencari tempat parkir saat berkunjung ke STT Terpadu Nurul Fikri. Aplikasi ini digunakan untuk menjamin tingkat keamanan kendaraan Anda.
+                <p>
+                    <a class="btn btn-primary btn-large" href="sipak-4.html">Daftar Kendaraan Anda</a>
+                </p>
+            </div> <!-- Jumobtron -->
+        </div>
+
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-md-12">
+                    <h3 class="text-center font-weight-bold">Profil Kampus STT-NF</h3>
+                    <div class="row" style="padding-top: 4em;">
+                        <div class="col-md-3 text-center">
+                            <img class="rounded" src="dist/img/gambar1.jpg" width="250px">
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img class="rounded" src="dist/img/gambar2.png" width="250px">
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img class="rounded" src="dist/img/gambar3.png" width="250px">
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img class="rounded" src="dist/img/gambar4.png" width="250px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <div class="container-fluid">
+        <div class="row" style="padding: 5em 2em; margin: 6em 1em; background-color: #e9ecef;">
+            <div class="col-md-12">
+                <h3 class="text-center font-weight-bold" style="padding-bottom: 30px;" id="berita"> Berita Kampus</h3>
+                <div class="row" style="padding-top: 2em;">
+                        <div class="col-md-2">
+                            <img class="rounded" src="dist/img/surat.png" width="130px">
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Kendaraan tanpa Surat Lengkap di larang masuk kampus</h5>
+                            <p>Bagi mahasiswa maupun dosen yang kendaraannya tidak dilengkapi dengan surat lengkap/STNK dilarang masuk ke halaman kampus serta tidak mendapatkan fasilitas parkir yang tersedia</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img class="rounded" src="dist/img/jumat.png" width="130px">
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Jum'at Gratis</h5>
+                            <p>Event ini dilakukan setiap hari jumat dan diperuntukkan untuk sivitas akademika STT Terpadu Nurul Fikri.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+       </div>
+      
+    <!-- Footer -->
+    <div class="content-wrapper">
+        <section class="content" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <footer class="text-left" style="padding: 15px 10px 10px;">
+                            <strong>Copyright &copy; 2022. Smart on the Web. SI01-SIPAK.</strong>
+                            <div class="text-right">
+                                <ul>
+                                    <li class="btn btn-dark btn-social">
+                                        <a href="https://www.linkedin.com/company/stt-terpadu-nurulfikri/?originalSubdomain=id"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="btn btn-dark btn-social">
+                                        <a href="https://instagram.com/sttterpadunf?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="btn btn-dark btn-social">
+                                        <a href="https://www.facebook.com/STTTerpaduNF/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="btn btn-dark btn-social">
+                                        <a href="https://api.whatsapp.com/send?phone=6285716243174&app=facebook&entry_point=page_cta"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                                </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+      <!-- Footer End -->
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
+    <title>SIPAK 3 - NURULFIKRI</title>
+  </head>
+  <body>
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <img src="dist/img/LOGO.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" width="70">
+        <a class="navbar-brand" href="#" style="margin-left: 1em;"><b>SIPAK STT-NF</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="data(1).html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data(1).html">Berita</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Registrasi Kendaraan
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="data(3).html">Registrasi Kegiatan</a>
+                <a class="dropdown-item" href="sipak-4.html">Fasilitas Parkir</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data(2).html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Content -->
+      <div class="container">
+          <div class="row">
+              <div class="col" style="margin-top: 3em; margin-bottom: 3em;">
+                <h2 style="margin: 1em 1em; text-align: center;">Registrasi User</h2>
+                <fieldset style="border: 2px solid black; padding: 2.5em 2.5em; border-radius: 5px; background-color: whitesmoke;">
+                    <form name="form">
+                        <div class="form-group row">
+                          <label for="search" class="col-4 col-form-label"><b>Cari Sivitas Akademika</b></label> 
+                          <div class="col-8">
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                  <a href="#"><i class="fa fa-search"></i></a>
+                                </div>
+                              </div> 
+                              <input id="search" name="search" placeholder="Search" type="search" class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="nama" class="col-4 col-form-label"><b>Nama Lengkap</b></label> 
+                          <div class="col-8">
+                            <input id="nama" name="nama" placeholder="Nama Mahasiswa / Dosen" type="text" class="form-control" required="required">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="prodi" class="col-4 col-form-label"><b>Asal Prodi</b></label> 
+                          <div class="col-8">
+                            <input id="prodi" name="prodi" placeholder="Asal Prodi" type="text" class="form-control" required="required">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="username" class="col-4 col-form-label"><b>Username</b></label> 
+                          <div class="col-8">
+                            <input id="username" name="input1" type="text" class="form-control" required="required">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="pass" class="col-4 col-form-label"><b>Password</b></label> 
+                          <div class="col-8">
+                            <input id="pass" name="input2" type="password" class="form-control" required="required">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="cekpass" class="col-4 col-form-label"><b>Cek Password</b></label> 
+                          <div class="col-8">
+                            <input id="cekpass" name="input3" type="password" class="form-control" required="required">
+                          </div>
+                        </div> 
+                        <div class="form-group row">
+                          <div class="offset-4 col-8">
+                            <button name="submit" onclick="validasihasil()" type="submit" class="btn btn-success">Daftar</button>
+                          </div>
+                        </div>
+                      </form>                      
+                </fieldset>
+              </div>
+          </div>
+      </div>
+
+      <!-- Footer -->
+    <div class="content-wrapper">
+      <section class="content" style="background-color: #e3f2fd;">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12">
+                      <footer class="text-left" style="padding: 15px 10px 10px;">
+                          <strong>Copyright &copy; 2022. Smart on the Web. SI01-SIPAK.</strong>
+                          <div class="text-right">
+                              <ul>
+                                  <li class="btn btn-dark btn-social">
+                                      <a href="https://www.linkedin.com/company/stt-terpadu-nurulfikri/?originalSubdomain=id"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="btn btn-dark btn-social">
+                                      <a href="https://instagram.com/sttterpadunf?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="btn btn-dark btn-social">
+                                      <a href="https://www.facebook.com/STTTerpaduNF/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="btn btn-dark btn-social">
+                                      <a href="https://api.whatsapp.com/send?phone=6285716243174&app=facebook&entry_point=page_cta"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                  </li>
+                              </ul>
+                              </div>
+                      </footer>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </div>
+    <!-- Footer End -->
+
+    <!-- JavaScript -->
+    <script>
+        function validasihasil() {
+        let username = document.form.input1.value;
+        let password = document.form.input2.value;
+        let cekpass = document.form.input3.value;
+        
+        if (username == "smartontheweb2022" && password == "integrity" && cekpass == "integrity"){
+            alert ("Registrasi berhasil.");
+        }
+        else {
+            alert ("Password yang Anda masukkan belum sesuai. Silahkan coba lagi.")
+        }
+        }
+        </script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
